@@ -1,13 +1,13 @@
 body {
   text-align: center;
-  background-image: linear-gradient(-90deg, navy, black);
+  background: rgb(176, 176, 179)
 }
 
 #level-title {
   font-family: 'Monoton', cursive;
   font-size: 4rem;
   margin: 2%;
-  color: #FEF2BF;
+  color: rgb(49, 47, 38);
 }
 
 .container {
@@ -24,6 +24,8 @@ body {
   height: 200px;
   width: 200px;
   border-radius: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  ;
 }
 
 .game-over {
@@ -48,6 +50,5 @@ body {
 }
 
 .pressed {
-  box-shadow: 0 0 20px white;
   background-color: grey;
 }
